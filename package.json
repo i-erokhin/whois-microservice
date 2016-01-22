@@ -1,0 +1,14 @@
+{
+  "name": "node-whois-microservice",
+  "version": "0.0.1",
+  "description": "Very simple whois microservice, interface to standart whois command on UNIX-like systems.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ilya Erokhin <i.erokhin@icloud.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "shelljs": "^0.5.3"
+  }
+}
