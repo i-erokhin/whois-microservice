@@ -1,7 +1,5 @@
-logs/*
-!.gitkeep
+*.log
 node_modules/
-tmp
 .DS_Store
 .idea
-nohup.out
+coverage

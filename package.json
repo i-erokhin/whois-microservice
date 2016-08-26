@@ -1,14 +1,32 @@
 {
-  "name": "node-whois-microservice",
+  "name": "whois-microservice",
   "version": "0.0.1",
-  "description": "Very simple whois microservice, interface to standart whois command on UNIX-like systems.",
-  "main": "index.js",
+  "description": "Very simple whois microservice, web-interface to standart whois command on UNIX-like systems.",
+  "license": "MIT",
+  "author": {
+    "name": "Ilya Erokhin",
+    "url": "https://github.com/i-erokhin",
+    "email": "sniffsla@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:i-erokhin/whois-microservice.git"
+  },
+  "keywords": [
+    "whois",
+    "server",
+    "domains",
+    "domain info"
+  ],
+  "main": "app/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Ilya Erokhin <i.erokhin@icloud.com>",
-  "license": "UNLICENSED",
+  "bin": {
+    "whois-microservice": "app/cli.js"
+  },
   "dependencies": {
-    "shelljs": "^0.5.3"
+    "commander": "^2.9.0",
+    "winston": "^2.2.0"
   }
 }
