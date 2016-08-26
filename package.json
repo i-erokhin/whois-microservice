@@ -1,6 +1,6 @@
 {
   "name": "whois-microservice",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Very simple whois microservice, web-interface to standart whois command on UNIX-like systems.",
   "license": "MIT",
   "author": {
