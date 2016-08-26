@@ -5,7 +5,7 @@ whois-microservice
 
 Very simple whois microservice, web-interface to standart whois command on UNIX-like systems.
 
-Written in JavaScript, powered by [Node.js][nodejs-url] and available as [NPM][npm-url] package.
+Written in JavaScript, powered by [Node.js][nodejs-url] and available as [NPM][npm-home-url] package.
 
 Quick example
 -------------
@@ -45,7 +45,7 @@ Installation
 
 ``whois`` command must be installed and must be in your ``$PATH``.
 
-Installation with [NPM][npm-url] as global module:
+Installation with [NPM][npm-home-url] as global module:
 
 ```
 $ npm i -g whois-microservice
@@ -84,4 +84,4 @@ MIT
 [npm-image]: https://img.shields.io/npm/v/whois-microservice.svg?style=flat-square
 [npm-url]: https://www.npmjs.com/package/whois-microservice
 [nodejs-url]: https://nodejs.org/en/
-[npm-url]: https://www.npmjs.com
+[npm-home-url]: https://www.npmjs.com
